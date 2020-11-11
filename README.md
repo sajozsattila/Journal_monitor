@@ -6,7 +6,7 @@ This project aims to build up an Article database for high quality open-access A
 The generated dataset is freely accessible in the [μr² project](https://mur2.co.uk/). The project tries to inform the scientist with the up to date researching results.   
 
 # The included Journals
-The monitored Journal should be listed in the Directory of Open Access Journals in the [Web of Science Expanded Science Citation Index ](https://en.wikipedia.org/wiki/Science_Citation_Index).  You can check the list of Journal in the Web of Science [Search engine](https://mjl.clarivate.com/search-results) 
+The monitored Journal should be listed in the Directory of Open Access Journals in the [Web of Science Expanded Science Citation Index ](https://en.wikipedia.org/wiki/Science_Citation_Index).  You can search for Journals in the Web of Science [Search engine](https://mjl.clarivate.com/search-results) 
 
 # The workbooks
 Each workbook is monitoring a certain publisher open-access journal and save the result in a CSV. 

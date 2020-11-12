@@ -15,15 +15,17 @@ Each workbook is monitoring a certain publisher open-access journal and save the
 
 The result of CSV separated by the pipe (|) character, and has the bellow columns:
   + url -- the URL of the Article
-  + journal -- the name of the Journal
+  + journal_title -- the name of the Journal
+  + journal_eissn -- eISSN of the Journal
+  + category -- the scientific category of the Article, if there is multiple separated by hash (#)
   + title -- the title of the Article
-   + doi -- the DOI of the Article
-   + abstract -- the abstract of the Article
-   + writer -- the writers of the Article. If there are multiple writers, they separated by hash (#) character. The workplace and the writer [ORCID ID](https://orcid.org/) also can be recorded.  The workplace separated by double (--), the IRCID ID by three (---) from the writer name.
-   + publishdate -- ISO 8601 format online publishing time of the Article
-   + keyword -- the keywords of the Article
+  + doi -- the DOI of the Article
+  + abstract -- the abstract of the Article
+  + writer -- the writers of the Article. If there are multiple writers, they separated by hash (#) character. The workplace and the writer [ORCID ID](https://orcid.org/) also can be recorded.  The workplace separated by double (--), the IRCID ID by three (---) from the writer name.
+  + publishdate -- ISO 8601 format online publishing time of the Article
+  + keyword -- the keywords of the Article, if there is multiple separated by hash (#)
 
-There is an example CSV (journal_Annals_of_Glaciology_1.0.0.csv) file in the data folder. 
+There is an example CSV (journal_Annals_of_Glaciology) file in the data folder. 
 
 ## Enrich CSV with ORCI id
 

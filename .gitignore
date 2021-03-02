@@ -1,2 +1,5 @@
 *.py
-
+geckodriver.log
+data
+predata
+.ipynb_checkpoints
